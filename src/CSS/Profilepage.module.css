@@ -66,6 +66,7 @@
     align-items: center;
     justify-content: flex-start;
     flex: 2;
+    padding-left: 20px;
 } 
 
 .rightContainer > div >div > span:nth-child(1){
