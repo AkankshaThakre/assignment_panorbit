@@ -35,13 +35,15 @@ function ProfilePage({ profileDetails }) {
             </div>
             <div className={styles.rightContainer}>
                 <div>Address</div>
-                <div><span>Street : </span><span>{profileDetails.address.street}</span></div>
-                <div><span>Suite : </span><span>{profileDetails.address.suite}</span></div>
-                <div><span>City : </span><span>{profileDetails.address.city}</span></div>
-                <div><span>Zipcode : </span><span>{profileDetails.address.zipcode}</span></div>
-                <img src="https://i.stack.imgur.com/HILmr.png" alt="Can't load" className={styles.googleMap} />
-                <div><span >Lat: </span><span>{profileDetails.address.geo.lat}</span></div>
-                <div><span >Long: </span><span>{profileDetails.address.geo.lng}</span></div>
+                <div>
+                    <div><span>Street : </span><span>{profileDetails.address.street}</span></div>
+                    <div><span>Suite : </span><span>{profileDetails.address.suite}</span></div>
+                    <div><span>City : </span><span>{profileDetails.address.city}</span></div>
+                    <div><span>Zipcode : </span><span>{profileDetails.address.zipcode}</span></div>
+                    <img src="https://i.stack.imgur.com/HILmr.png" alt="Can't load" className={styles.googleMap} />
+                    <div><span >Lat: </span><span>{profileDetails.address.geo.lat}</span></div>
+                    <div><span >Long: </span><span>{profileDetails.address.geo.lng}</span></div>
+                </div>
             </div>
         </div>
     )

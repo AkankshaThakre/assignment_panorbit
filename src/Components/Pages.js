@@ -31,10 +31,10 @@ function Pages({ allUsers, profileDetails, logOutHandler }) {
             <SideNav />
             <div className={styles.rightContainer}>
                 <div className={styles.headerNav}>
-                    <h2>{currentLocation}</h2>
+                    <h2 className={styles.currentLocation}>{currentLocation}</h2>
                     <div className={styles.profileInfo} onClick={() => setProfileModalDisplay(!profileModalDisplay)}>
                         <img src={profileDetails.profilepicture} className={styles.image} />
-                        <p>{profileDetails.name}</p>
+                        <p className={styles.activeUserName}>{profileDetails.name}</p>
                     </div>
                     {profileModalDisplay && <ProfileModal allUsers={allUsers} profileDetails={profileDetails} logOutHandler={logOutHandler} />}
 

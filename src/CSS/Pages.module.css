@@ -30,3 +30,17 @@
     align-items: center;
     justify-content: center;
 }
+
+.currentLocation{
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(102, 99, 99);
+}
+
+.activeUserName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(53, 50, 50);
+}
