@@ -1,0 +1,74 @@
+.container{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:280px;
+    background-color:  #FFFFFF;
+    border-radius: 25px;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 10px 10px rgba(94, 88, 88, 0.15);
+    z-index: 1;
+}
+
+.activeUserContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+}
+
+.image1{
+    height: 90px; 
+    width: 90px;
+    border-radius: 100%;
+}
+
+.image{
+    height: 27px; 
+    width: 27px;
+    border-radius: 100%;
+}
+
+.signOutButton{
+    height: 35px;
+    width: 100px;
+    background-color: #D55151;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.line{
+    width: 100%;
+    margin: 5px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #4d4c4c;
+    padding: 5px;
+}
+
+.userName{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #464545;
+}
+
+.userEmail{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aca4a4;
+}

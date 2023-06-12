@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.image{
+    height: 30px ;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.profileInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

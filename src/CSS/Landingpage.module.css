@@ -1,0 +1,85 @@
+.container{
+   background:white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background: rgb(17, 17, 168);
+   background: -moz-linear-gradient(top, rgb(17, 17, 168) 0%, rgb(175, 165, 165) 60%);
+   background: -webkit-linear-gradient(top, rgb(17, 17, 168) 0%, rgb(175, 165, 165) 60%);
+   background: linear-gradient(to bottom, rgb(17, 17, 168) 0%, rgb(214, 213, 213) 60%);
+}
+
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 550px;
+    background:rgb(255, 255, 250);
+    border-color: white;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px 2px rgba(226, 223, 223, 0.2);
+}
+
+.heading{
+   top: 0;
+   background-color: #f5f1f1;
+   padding: 35px;
+   margin-bottom: 10px;
+   text-align: center;
+   color: rgb(85, 84, 84);
+   font-weight: 500;
+   font-size: 19px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+}
+
+.scroller{
+   height: calc(100% - 40px); 
+   overflow: auto;
+   margin: 0 6px 25px 30px;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 6px;
+    
+  }
+  
+  .scroller::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  
+  .scroller::-webkit-scrollbar-thumb {
+    background-color: #dad5d5; 
+    border-radius: 4px; 
+  }
+  
+  .scroller::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+  }
+
+.li{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.profilepicture{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.item{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(114, 111, 111);
+    padding-left: 17px ;
+}
+
+.line{
+    margin-right: 25px;
+}

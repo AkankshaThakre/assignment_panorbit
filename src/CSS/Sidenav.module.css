@@ -1,0 +1,51 @@
+.container {
+ height: 100vh;
+}
+
+.sidenav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 230px;
+    background-color: rgb(74, 74, 191);
+    border-radius: 25px;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 6px 10px 10px 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(253, 248, 248, 0.6);
+}
+
+.li_active {
+    color: white;
+    font-weight: 600;
+
+}
+
+.pointer{
+    position: relative;
+    left: 25px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: rgba(80, 78, 78, 0.4);
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 100%;
+}
+
+.line {
+    width: 65%;
+    margin: 7px 37px 7px 40px;
+    border-color: rgba(173, 177, 177, 0.6);
+}
