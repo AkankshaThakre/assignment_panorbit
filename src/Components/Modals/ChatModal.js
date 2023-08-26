@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from '../../CSS/Chatmodal.module.css'
 import DownArrow from '../../Assets/downArrow.svg';
+import chatIcon from '../../Assets/message-regular.svg';
 
 function ChatModal({ profileNames }) {
 
@@ -9,6 +10,7 @@ function ChatModal({ profileNames }) {
   return (
     <div className={styles.container}>
       <div onClick={() => setShowChat(!showChat)} className={styles.heading}>
+        <img src={chatIcon} />
         <p className={styles.headerText}>Chats</p>
         <img src={DownArrow} height={10} width={10} />
       </div>
